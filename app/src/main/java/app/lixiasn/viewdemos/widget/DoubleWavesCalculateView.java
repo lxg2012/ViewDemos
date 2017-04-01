@@ -245,8 +245,6 @@ public class DoubleWavesCalculateView extends View {
 
     /**
      * 这个在生命周期中先于onMeasure执行
-     *
-     * @param visibility
      */
     @Override
     protected void onWindowVisibilityChanged(int visibility) {
@@ -289,7 +287,7 @@ public class DoubleWavesCalculateView extends View {
         public void run() {
             synchronized (DoubleWavesCalculateView.this) {
                 long start = System.currentTimeMillis();
-
+//1111
                 calculatePath();
 
                // postinvalidate();
