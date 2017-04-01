@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ViewDemos</string>
+    <string name="viewgroup">ViewGroup</string>
+    <string name="attrsview">attarsView</string>
+    <string name="listeview">ListView</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="app_names">应用宝,QQ,微信,陌陌,知乎,掘金,Line,Gitup,支付宝,天猫,淘宝,头条,虾米,网易云,greenvpn,
+                                高德,Boss直聘,谢谢
+    </string>
+    <string name="waveview">waveview</string>
+
+</resources>

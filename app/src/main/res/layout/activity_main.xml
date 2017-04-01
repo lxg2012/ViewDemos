@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.lixiasn.viewdemos.MainActivity">
+
+
+    <Button
+        android:id="@+id/viewgroup"
+        android:text="@string/viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sapce"/>
+
+    <Button
+        android:id="@+id/attrsview"
+        android:text="@string/attrsview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sapce"/>
+
+    <Button
+        android:id="@+id/listeview"
+        android:text="@string/listeview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sapce"/>
+
+    <Button
+        android:id="@+id/waveview"
+        android:text="@string/waveview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+</LinearLayout>

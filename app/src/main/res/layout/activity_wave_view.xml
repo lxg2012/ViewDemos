@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_wave_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.lixiasn.viewdemos.WaveViewActivity">
+
+    <app.lixiasn.viewdemos.widget.DoubleWavesCalculateView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:wave_back_acolor="#666837f4"
+        app:wave_back_acolor_after="#006837f4"
+        app:wave_back_alpha="102"
+        app:wave_front_acolor="#4d7743fb"
+        app:wave_front_acolor_after="#007743fb"
+        app:wave_front_alpha="77"
+        app:wave_weight="0.2"/>
+
+</RelativeLayout>

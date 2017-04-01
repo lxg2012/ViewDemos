@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DoubleWavesView">
+        <attr name="background_color" format="color"/>
+        <attr name="wave_front_acolor" format="color"/>
+        <attr name="wave_back_acolor" format="color"/>
+        <attr name="wave_front_acolor_after" format="color"/>
+        <attr name="wave_back_acolor_after" format="color"/>
+        <attr name="wave_front_alpha" format="integer"/>
+        <attr name="wave_back_alpha" format="integer"/>
+        <attr name="wave_weight" format="float"/>
+    </declare-styleable>
+
+</resources>
